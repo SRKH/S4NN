@@ -4,6 +4,8 @@
 # by S. R. Kheradpisheh and T. Masquelier                                                 #
 # The paper is availbale at: https://arxiv.org/abs/1910.09495.                            #  
 #                                                                                         #
+# To run the codes on cpu set GPU=False.                                                  #
+# An ipynb version of the code compatible with Google coLab is also available.            # 
 ###########################################################################################
 
 # Imports
