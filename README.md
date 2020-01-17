@@ -7,9 +7,9 @@ Two versions of the code are available:
   
 To run the codes on MNIST dataset, you should first unzip the MNIST dataset. Then, you should install the python-mnist package. To do so, yo can run the following command:
 
-'$ sudo pip install python-mnist'
+`$ sudo pip install python-mnist`
 
 If you want to run the codes on GPU, you should set GPU=True. Also, you need to install Cupy package to work with GPU. Cupy is already installed on Google CoLab. You can install it on your own machine by the following command:
 
-'$ sudo pip install cupy'
+`$ sudo pip install cupy`
 
