@@ -1,5 +1,5 @@
 # S4NN
-The implementation of S4NN presented in "S4NN: temporal backpropagation for spiking neural networks with one spike per neuron" by S. R. Kheradpisheh and T. Masquelier that is availbale at: https://arxiv.org/abs/1910.09495.
+The implementation of S4NN presented in "S4NN: temporal backpropagation for spiking neural networks with one spike per neuron" by S. R. Kheradpisheh and T. Masquelier availbale at: https://arxiv.org/abs/1910.09495.
 
 Two versions of the codes are available:
  - The S4NN.py if you want to run the codes with python.
