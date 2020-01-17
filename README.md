@@ -13,4 +13,4 @@ If you want to run the codes on GPU, you should set GPU=True. Also, you need to 
 
 `$ sudo pip install cupy`
 
-The pre-trained wight matrix is available at weights.npy file.
+The pre-trained wight matrix is available at weights.npy file. To use it, you should set loading=True.
