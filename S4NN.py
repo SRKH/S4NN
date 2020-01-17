@@ -1,3 +1,11 @@
+###########################################################################################
+# The implementation of the supervied spiking neural network named S4NN presented in      #
+# "S4NN: temporal backpropagation for spiking neural networks with one spike per neuron"  #
+# by S. R. Kheradpisheh and T. Masquelier                                                 #
+# The paper is availbale at: https://arxiv.org/abs/1910.09495.                            #  
+#                                                                                         #
+###########################################################################################
+
 # Imports
 from __future__ import division
 
