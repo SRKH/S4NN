@@ -5,7 +5,7 @@ Two versions of the code are available:
  - The S4NN.py if you want to run the codes with python.
  - The S4NN.ipynb if you want to run the codes on Google CoLab.
   
-To run the codes on MNIST dataset, you should first unzip the MNIST.zip file. Then, you should install the python-mnist package. To do so, yo can run the following command:
+To run the codes on MNIST dataset, you should first unzip the MNIST.zip file. Then, you should install the python-mnist package. To do so, you can run the following command:
 
 `$ sudo pip install python-mnist`
 
