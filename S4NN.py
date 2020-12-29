@@ -98,8 +98,11 @@ for layer in range(Nlayers):
     Spikes.append(cp.asarray(np.zeros((layerSize[layer + 1][0], layerSize[layer + 1][1], tmax + 1))))
     X.append(cp.asarray(np.mgrid[0:layerSize[layer + 1][0], 0:layerSize[layer + 1][1]]))
 if loading:
-    W = np.load(LoadFrom, allow_pickle=True)
-
+    if GPU:
+        W = np.load(LoadFrom, allow_pickle=True)
+    else:
+        for i in range(len(W)):
+            W[i] = cupy.asnumpy(W[i])
 SpikeList = [SpikeImage] + Spikes
 
 # Start learning
@@ -228,7 +231,7 @@ for epoch in range(Nepoch):
         np.save("weights", W, allow_pickle=True)
         if testPerf > best_perf:
             np.save("weights_best", W, allow_pickle=True)
-            best_perf = val
+            best_perf = testPerf
 
     # To find and reset dead neurons
     ResetCheck = FiringFrequency < 0.001 * len(images)
